@@ -49,11 +49,11 @@ if(isset($_POST["submit"])) {
     <title>Epsilon</title>
 </head>
 <body class="h-14 bg-gradient-to-b from-pink-300 to-purple-500 bg-no-repeat min-h-[100vh] ">
-    <div class="grid place-items-center my-64 bg-gradient-to-b from-white bg-no-repeat w-1/5 mx-auto rounded-xl">
-        <p class="font-bold text-[#22375c] py-5 text-3xl">EPSILON</p>
-        <form action="" method="POST" enctype="multipart/form-data">
+    <div class="grid place-items-center my-64 bg-gradient-to-b from-white bg-no-repeat w-1/5 mx-auto rounded-xl h-2/4">
+        <?php include "./header.php"?>
+        <form action="" method="POST" enctype="multipart/form-data"class="text-[#22375c] pb-5">
             <input type="file" name="fileToUpload" id="fileToUpload">
-            <input type="submit" value="Upload" name="submit">
+            <input type="submit" value="Upload" name="submit" class="text-center">
         </form>
         <a href="./index.php" class="underline text-purple-600 pt-2">Retour</a>
     </div>
