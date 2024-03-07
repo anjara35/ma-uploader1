@@ -1,7 +1,7 @@
 <?php
 
 if(isset($_POST["submit"])) {
-    $targetDir = "uploads/";
+    $targetDir = "uploadImg/";
     $targetFile = $targetDir . basename($_FILES["fileToUpload"]["name"]);
     $uploadOk = 1;
     $fileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
