@@ -10,7 +10,7 @@
 <div class="grid place-items-center my-64 bg-gradient-to-b from-white bg-no-repeat w-1/5 mx-auto rounded-xl h-2/5">
     <?php include "./header.php"?>
     <img src="./img/gotaga.jfif" class="h-32 w-32 rounded-full">  
-    <p class="text-[#22375c] pt-2 text-center">Anjara Pringault<br>Corentin Rossetto<br>Télo Thomas</p>
+    <p class="text-[#22375c] pt-2 text-center">Anjara Pringault<br>Corentin Rossetto<br>Alexis Lhussiez</p>
     <a href="./form.php" class="underline text-purple-600 pt-2">Upload your file !</a>
     </div>
 </body>
